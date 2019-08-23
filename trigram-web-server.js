@@ -120,9 +120,7 @@ tgApp.post('/upload', function(req, res) {
       trigramService.upload(`./uploads/${trigramFile.name}`, (err, success) =>{
            res.send('File '+trigramFile.name+' uploaded!');
       })
-     
     });
-
   });
 
 

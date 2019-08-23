@@ -12,7 +12,7 @@ Here's an example interface using a `trigram.js` file:
 * `node trigram upload` -> uploads a new file
 * `node trigram files` -> returns list of files that have been uploaded   
 * node trigram file id=<id> -> returns info about a single file
-* node trigram generate file=<file-id> maxSize=<size> seedWords=<words> > returns generated text based on the contents of a given file
+* node trigram generate id=<file-id> maxSize=<size> seedWords=<words> > returns generated text based on the contents of a given file
 
 ## Required Technologies:
 * Node.js
